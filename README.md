@@ -6,4 +6,4 @@ CouchDB is by default running on port 5984. The local.ini file can be edited pri
 
 ### Running
 Start the Docker container with the following command:
-`docker run --name nemaki-couchdb -port 5984:5984 aegif/nemakicouch`
+`docker run -d --name nemaki-couch -p 5984:5984 aegif/nemakicouch`
